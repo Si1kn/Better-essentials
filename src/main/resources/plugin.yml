@@ -1,9 +1,9 @@
-name: BasicPermsPlugin
+name: BetterEssentials
 version: ${project.version}
-main: io.github.si1kn.bpp.BPPlugin
+main: io.github.si1kn.be.BEPlugin
 authors: [ Si1kn ]
-description: BedWarsPlugin
-website: si1kn.github.io/BPPlugin
+description: Better Essentials
+website: si1kn.github.io/be.html
 
 commands:
   fly:
@@ -19,4 +19,12 @@ commands:
     usage: /<command>
   night:
     description: sets time to night
+    usage: /<command>
+
+  chat:
+    description: disables / enables chat
+    usage: /<command>
+
+  report:
+    description: report players
     usage: /<command>

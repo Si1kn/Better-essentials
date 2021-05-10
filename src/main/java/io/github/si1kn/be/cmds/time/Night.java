@@ -1,6 +1,6 @@
-package io.github.si1kn.bpp.cmds;
+package io.github.si1kn.be.cmds.time;
 
-import io.github.si1kn.bpp.BPPlugin;
+import io.github.si1kn.be.BEPlugin;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -16,7 +16,7 @@ public class Night implements CommandExecutor {
                     ((Player) sender).getWorld().setTime(0);
                 }
             } else {
-                player.sendMessage(BPPlugin.prefix + "Sorry, you don't have permissions to run this!");
+                player.sendMessage(BEPlugin.prefix + "Sorry, you don't have permissions to run this!");
             }
         } else {
             System.out.println("You cannot run this command from console!");
