@@ -3,4 +3,20 @@ version: ${project.version}
 main: io.github.si1kn.bpp.BPPlugin
 authors: [ Si1kn ]
 description: BedWarsPlugin
-website: si1kn.github.io/bedwarsPlguin
+website: si1kn.github.io/BPPlugin
+
+commands:
+  fly:
+    description: Fly
+    usage: /<command>
+
+  enderchest:
+    description: opens enchest
+    usage: /<command>
+
+  day:
+    description: sets time to day
+    usage: /<command>
+  night:
+    description: sets time to night
+    usage: /<command>
