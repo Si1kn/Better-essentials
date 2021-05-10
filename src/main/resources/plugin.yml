@@ -1,0 +1,6 @@
+name: BasicPermsPlugin
+version: ${project.version}
+main: io.github.si1kn.bpp.BPPlugin
+authors: [ Si1kn ]
+description: BedWarsPlugin
+website: si1kn.github.io/bedwarsPlguin
